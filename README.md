@@ -8,7 +8,7 @@ The `dirichletprocess` package provides a flexible framework for fitting complex
 
 ## Tasks
 
-This repository includes three tasks.
+This repository includes three tasks R code and analysis notebook.
 
 ### Easy: Standard Mixture Models
 
