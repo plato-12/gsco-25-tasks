@@ -62,7 +62,7 @@ Individual R scripts for each task are:
 
 ## References
 
-1.  Ross, G. J., & Markwick, D. (2018). dirichletprocess: An R Package for Fitting Complex Bayesian Nonparametric Models. [arXiv:1809.07734](https://arxiv.org/abs/1809.07734)
+1.  Ross, G. J., & Markwick, D. (2018). dirichletprocess: An R Package for Fitting Complex Bayesian Nonparametric Models.
 
 2.  Neal, R. M. (2000). Markov Chain Sampling Methods for Dirichlet Process Mixture Models. Journal of Computational and Graphical Statistics, 9(2), 249-265.
 
