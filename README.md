@@ -44,7 +44,7 @@ Exploration of how the alpha parameter affects clustering behavior:
 
 -   Comparison with true generating distribution
 
-## Usage
+## Analysis
 
 The main analysis is contained in the R Markdown document `dirichletprocess_analysis.Rmd`.
 
@@ -52,17 +52,13 @@ The main analysis is contained in the R Markdown document `dirichletprocess_anal
 rmarkdown::render("dirichletprocess_analysis.Rmd")
 ```
 
-Individual R scripts for each task are: - `easy.R` - `medium.R` - `hard.R`
+Individual R scripts for each task are:
 
-## Mathematical Framework
+-   `easy.R`
 
-The Dirichlet process mixture model can be represented as:
+-   `medium.R`
 
-$$p(x) = \sum_{j=1}^{\infty} w_j \cdot k(x | \theta_j)$$
-
-where: - $w_j$ are the mixture weights - $k(x | \theta_j)$ is the kernel density with parameters $\theta_j$ - $\theta_j \sim G$ where $G \sim DP(\alpha, G_0)$
-
-The concentration parameter $\alpha$ controls the expected number of clusters, while the base measure $G_0$ represents our prior belief about the parameters.
+-   `hard.R`
 
 ## References
 
